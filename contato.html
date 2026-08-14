@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato — Stubinski Joias</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icone">◆</div>
+      <span class="logo-nome">Stubinski <span>Joias</span></span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.php">Coleções</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+        <li><a href="cadastro_produtos.php">Cadastrar Produto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== PAGE HERO ==================== -->
+<div class="page-hero">
+  <div>
+    <p class="page-hero-eyebrow">Fale Conosco</p>
+    <h1>Contato</h1>
+    <span class="linha-dourada"></span>
+  </div>
+</div>
+
+<!-- ==================== CONTATO ==================== -->
+<div class="secao">
+  <p class="secao-subtitulo" style="margin-bottom:3.5rem;">
+    Estamos aqui para atender você. Envie sua mensagem ou visite nosso atelier em Cascavel.
+  </p>
+
+  <div class="contato-wrapper">
+
+    <!-- Informações de contato -->
+    <div class="contato-info">
+      <p class="hero-eyebrow" style="text-align:left;margin-bottom:0.5rem;">Estamos aqui</p>
+      <h2>Informações de Contato</h2>
+      <span class="linha-dourada" style="margin-left:0;"></span>
+      <p style="margin-bottom:2rem;">Nossa equipe está pronta para atender você de segunda a sábado, das 10h às 20h.</p>
+
+      <div class="contato-detalhe">
+        <div class="contato-detalhe-icone">📍</div>
+        <div>
+          <h4>Endereço</h4>
+          <p>Rua Terezina, 2834 — Tropical<br>Cascavel — PR, CEP 85807-140</p>
+        </div>
+      </div>
+
+      <div class="contato-detalhe">
+        <div class="contato-detalhe-icone">📞</div>
+        <div>
+          <h4>Telefone & WhatsApp</h4>
+          <p>(45) 3226-7890<br>(45) 98765-9921</p>
+        </div>
+      </div>
+
+      <div class="contato-detalhe">
+        <div class="contato-detalhe-icone">✉</div>
+        <div>
+          <h4>E-mail</h4>
+          <p>contato@stubinskijoias.com.br<br>vendas@stubinskijoias.com.br</p>
+        </div>
+      </div>
+
+      <div class="contato-detalhe">
+        <div class="contato-detalhe-icone">⏰</div>
+        <div>
+          <h4>Horário de Funcionamento</h4>
+          <p>Segunda a Sexta: 10h às 20h<br>Sábado: 10h às 18h<br>Domingo: 12h às 17h</p>
+        </div>
+      </div>
+
+      <!-- Redes Sociais -->
+      <div style="margin-top:2rem;">
+        <h4 style="font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--dourado);margin-bottom:1rem;">Redes Sociais</h4>
+        <div class="redes-sociais">
+          <a href="#" class="rede-link" title="Instagram" aria-label="Instagram">📷</a>
+          <a href="#" class="rede-link" title="Facebook" aria-label="Facebook">👍</a>
+          <a href="#" class="rede-link" title="Pinterest" aria-label="Pinterest">📌</a>
+          <a href="#" class="rede-link" title="WhatsApp" aria-label="WhatsApp">💬</a>
+          <a href="#" class="rede-link" title="YouTube" aria-label="YouTube">▶</a>
+        </div>
+        <p style="font-size:0.75rem;margin-top:1rem;opacity:0.6;">
+          Siga-nos e veja os bastidores do nosso atelier, novas coleções e inspirações diárias.
+        </p>
+      </div>
+    </div>
+
+    <!-- Formulário -->
+    <div class="form-contato">
+      <p class="hero-eyebrow" style="text-align:left;margin-bottom:0.5rem;">Mensagem</p>
+      <h3 style="font-family:var(--fonte-display);font-size:1.7rem;color:var(--creme);margin-bottom:1.5rem;font-weight:300;">
+        Envie sua Mensagem
+      </h3>
+
+      <div class="form-linha">
+        <div class="form-grupo">
+          <label for="nome">Nome Completo *</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu nome completo"
+            required
+          />
+        </div>
+        <div class="form-grupo">
+          <label for="email">E-mail *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="seu@email.com.br"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="form-linha">
+        <div class="form-grupo">
+          <label for="telefone">Telefone / WhatsApp</label>
+          <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="(45) 99999-9999"
+          />
+        </div>
+        <div class="form-grupo">
+          <label for="assunto">Assunto *</label>
+          <select id="assunto" name="assunto" required>
+            <option value="" disabled selected>Selecione o assunto</option>
+            <option value="compra">Compra de joia</option>
+            <option value="personalizado">Joia personalizada</option>
+            <option value="manutencao">Manutenção e restauro</option>
+            <option value="parceria">Parceria comercial</option>
+            <option value="avaliacao">Avaliação de joias</option>
+            <option value="outro">Outro assunto</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-grupo">
+        <label for="mensagem">Mensagem *</label>
+        <textarea
+          id="mensagem"
+          name="mensagem"
+          placeholder="Descreva como podemos ajudá-lo. Se for uma joia personalizada, nos conte sobre o material desejado, estilo e ocasião especial..."
+          required
+        ></textarea>
+      </div>
+
+      <div class="form-grupo" style="display:flex;align-items:center;gap:0.75rem;">
+        <input type="checkbox" id="lgpd" name="lgpd" style="width:auto;cursor:pointer;" required />
+        <label for="lgpd" style="font-size:0.75rem;text-transform:none;letter-spacing:0;color:var(--texto);cursor:pointer;">
+          Concordo com a <a href="#" style="color:var(--dourado);text-decoration:underline;">Política de Privacidade</a> e aceito receber comunicações da Lumière Joias.
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primario" style="width:100%;margin-top:0.5rem;padding:1rem;" onclick="enviarMensagem(event)">
+        Enviar Mensagem ✦
+      </button>
+
+      <p id="confirmacao" style="display:none;margin-top:1.5rem;padding:1rem;border:1px solid var(--dourado);color:var(--dourado);text-align:center;font-size:0.85rem;letter-spacing:0.05em;">
+        ✦ Mensagem enviada com sucesso! Nossa equipe entrará em contato em até 24 horas.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- ==================== FAQ ==================== -->
+  <div style="margin-top:5rem;">
+    <p class="hero-eyebrow" style="text-align:center;margin-bottom:0.5rem;">Dúvidas Frequentes</p>
+    <h2 class="secao-titulo">Perguntas Frequentes</h2>
+    <span class="linha-dourada"></span>
+
+    <div style="max-width:700px;margin:2rem auto 0;display:flex;flex-direction:column;gap:1rem;">
+      <details style="background:var(--card-bg);border:1px solid rgba(201,168,76,0.15);padding:1.25rem 1.5rem;cursor:pointer;">
+        <summary style="color:var(--creme);font-size:0.95rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          Vocês fazem joias personalizadas?
+          <span style="color:var(--dourado);">+</span>
+        </summary>
+        <p style="margin-top:1rem;font-size:0.87rem;line-height:1.7;">Sim! Criamos joias completamente personalizadas. O processo inclui consultoria gratuita com nosso designer, escolha de materiais, aprovação de renderização 3D e produção artesanal. O prazo médio é de 25 a 30 dias.</p>
+      </details>
+
+      <details style="background:var(--card-bg);border:1px solid rgba(201,168,76,0.15);padding:1.25rem 1.5rem;cursor:pointer;">
+        <summary style="color:var(--creme);font-size:0.95rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          Como funciona a garantia das peças?
+          <span style="color:var(--dourado);">+</span>
+        </summary>
+        <p style="margin-top:1rem;font-size:0.87rem;line-height:1.7;">Todas as nossas joias possuem garantia vitalícia contra defeitos de fabricação. Oferecemos também limpeza e manutenção semestral gratuita. Basta agendar uma visita ao nosso atelier.</p>
+      </details>
+
+      <details style="background:var(--card-bg);border:1px solid rgba(201,168,76,0.15);padding:1.25rem 1.5rem;cursor:pointer;">
+        <summary style="color:var(--creme);font-size:0.95rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          Vocês fazem avaliação de joias antigas?
+          <span style="color:var(--dourado);">+</span>
+        </summary>
+        <p style="margin-top:1rem;font-size:0.87rem;line-height:1.7;">Sim. Nossa equipe de gemologistas realiza avaliação profissional de joias antigas, seja para seguro, inventário ou revenda. Agende pelo telefone ou pelo formulário acima.</p>
+      </details>
+
+      <details style="background:var(--card-bg);border:1px solid rgba(201,168,76,0.15);padding:1.25rem 1.5rem;cursor:pointer;">
+        <summary style="color:var(--creme);font-size:0.95rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          Entregam para todo o Brasil?
+          <span style="color:var(--dourado);">+</span>
+        </summary>
+        <p style="margin-top:1rem;font-size:0.87rem;line-height:1.7;">Sim, entregamos para todo o território nacional com seguro de transporte e rastreamento em tempo real. A entrega é feita por transportadora especializada em valores. Frete grátis para compras acima de R$ 3.000.</p>
+      </details>
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Stubinski <span>Joias</span></div>
+        <p class="footer-desc">Joalheria de alta qualidade com mais de 5 anos de tradição. Cada peça é uma obra de arte criada com paixão e expertise.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.php">Coleções</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Coleções</h4>
+        <ul>
+          <li><a href="produtos.php">Anéis</a></li>
+          <li><a href="produtos.php">Colares</a></li>
+          <li><a href="produtos.php">Brincos</a></li>
+          <li><a href="produtos.php">Pulseiras</a></li>
+          <li><a href="produtos.php">Personalizados</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">📍 Rua Terezina, 2834 — Tropical<br>Cascavel — PR, CEP 85807-140</a></li>
+          <li><a href="#">📞 (45) 3226-7890</a></li>
+          <li><a href="#">✉ contato@stubinskijoias.com.br</a></li>
+          <li><a href="#">⏰ Seg–Sáb: 10h–20h</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Stubinski Joias. Todos os direitos reservados.</span>
+      <span>CNPJ: 12.345.678/0001-90</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function enviarMensagem(e) {
+    e.preventDefault();
+    const nome = document.getElementById('nome').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const mensagem = document.getElementById('mensagem').value.trim();
+    const lgpd = document.getElementById('lgpd').checked;
+
+    if (!nome || !email || !mensagem || !lgpd) {
+      alert('Por favor, preencha todos os campos obrigatórios e aceite a política de privacidade.');
+      return;
+    }
+
+    document.getElementById('confirmacao').style.display = 'block';
+    document.querySelector('.form-contato button').textContent = '✦ Mensagem Enviada!';
+    document.querySelector('.form-contato button').style.background = '#2d6a2d';
+  }
+</script>
+
+</body>
+</html>
